@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "minecraft:potato",
+    "pattern": [
+        "P"
+    ],
+    "key": {
+        "P": { "item": "potatoblocks:potato_block" }
+    },
+    "result": {
+        "item": "minecraft:potato",
+		"count": 9
+    }
+}

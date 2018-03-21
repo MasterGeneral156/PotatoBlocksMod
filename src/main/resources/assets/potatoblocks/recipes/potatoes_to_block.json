@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "potatoblocks:potato_block",
+    "pattern": [
+        "PPP",
+        "PPP",
+		"PPP"
+    ],
+    "key": {
+        "P": [{"type": "forge:ore_dict", "ore": "cropPotato"}]
+    },
+    "result": {
+        "item": "potatoblocks:potato_block",
+		"count": 1
+    }
+}
