@@ -1,0 +1,6 @@
+{
+    "parent": "potatoblocks:blocks/potato_block",
+    "textures": {
+        "inventory": "potatoblocks:blocks/potato_block"
+    }
+}
