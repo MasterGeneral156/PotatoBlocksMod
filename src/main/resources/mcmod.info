@@ -1,0 +1,16 @@
+[
+{
+  "modid": "potatoblocks",
+  "name": "Potato Blocks",
+  "description": "Adds a single block, the Potato Block. This is for Izzy and Donisi.",
+  "version": "${mod_version}",
+  "mcversion": "${mc_version}",
+  "url": "https://minecraft.curseforge.com/projects/potato-blocks",
+  "updateUrl": "https://raw.githubusercontent.com/MasterGeneral156/Version/master/PotatoBlocks.json",
+  "authorList": ["TheMasterGeneral"],
+  "credits": "Chase the Dragon",
+  "logoFile": "assets/potatoblocks/textures/logo.png",
+  "screenshots": [],
+  "dependencies": ["ctdcore"]
+}
+]
