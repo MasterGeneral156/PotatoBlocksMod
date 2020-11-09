@@ -1,6 +1,6 @@
 {
-    "parent": "potatoblocks:blocks/potato_block",
+    "parent": "potatoblocks:block/potato_block",
     "textures": {
-        "inventory": "potatoblocks:blocks/potato_block"
+        "inventory": "potatoblocks:block/potato_block"
     }
 }
