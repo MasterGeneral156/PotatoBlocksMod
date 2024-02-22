@@ -26,8 +26,8 @@ public class PotatoBlocks
     private static final Logger LOGGER = LogManager.getLogger();
     public static PotatoBlocks instance;
     
-    public static CTDBlock potato_block = new CTDBlock(Properties.create(Material.PLANTS));
-    public static BlockItem potato_block_item = new BlockItem(potato_block.getBlock(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS));
+    public static CTDBlock potato_block = new CTDBlock(Properties.of(Material.PLANT));
+    public static BlockItem potato_block_item = new BlockItem(potato_block.getBlock(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS));
 
 	public static final String MODID = "potatoblocks";
 
