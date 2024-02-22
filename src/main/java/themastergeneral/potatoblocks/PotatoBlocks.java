@@ -5,17 +5,17 @@ import org.apache.logging.log4j.Logger;
 
 import com.themastergeneral.ctdcore.block.CTDBlock;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.AbstractBlock.Properties;
-import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -27,7 +27,7 @@ public class PotatoBlocks
     public static PotatoBlocks instance;
     
     public static CTDBlock potato_block = new CTDBlock(Properties.of(Material.PLANT));
-    public static BlockItem potato_block_item = new BlockItem(potato_block.getBlock(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS));
+    public static BlockItem potato_block_item = new BlockItem(potato_block, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS));
 
 	public static final String MODID = "potatoblocks";
 
