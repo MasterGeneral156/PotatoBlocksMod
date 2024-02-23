@@ -7,7 +7,7 @@
 		"PPP"
     ],
     "key": {
-		"P": { "item" : "minecraft:potato" }
+		"P": { "tag": "forge:crops/potato" }
     },
     "result": {
         "item": "potatoblocks:potato_block",
