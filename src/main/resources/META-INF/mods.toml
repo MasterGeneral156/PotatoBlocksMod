@@ -1,7 +1,7 @@
 modLoader="javafml" #mandatory
-loaderVersion="[45,)" #mandatory
+loaderVersion="[47,)" #mandatory
 issueTrackerURL="https://github.com/MasterGeneral156/PotatoBlocksMod/issues"
-license="https://github.com/MasterGeneral156/PotatoBlocksMod/blob/1.19/LICENSE"
+license="https://github.com/MasterGeneral156/PotatoBlocksMod/blob/1.20/LICENSE"
 [[mods]] #mandatory
 modId="potatoblocks" #mandatory
 version="1.0.0" #mandatory
