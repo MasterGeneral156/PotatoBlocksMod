@@ -4,7 +4,7 @@ issueTrackerURL="https://github.com/MasterGeneral156/PotatoBlocksMod/issues"
 license="https://github.com/MasterGeneral156/PotatoBlocksMod/blob/1.19/LICENSE"
 [[mods]] #mandatory
 modId="potatoblocks" #mandatory
-version="1.0.0" #mandatory
+version="1.0.1" #mandatory
 displayName="Potato Blocks" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/PotatoBlocks.json" #optional
 displayURL="https://www.curseforge.com/minecraft/mc-mods/potato-blocks" #optional
