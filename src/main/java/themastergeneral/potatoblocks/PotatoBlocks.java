@@ -7,7 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -40,9 +40,9 @@ public class PotatoBlocks
 		LOGGER.info("Potato Blocks is launching.");
     }
     
-    private void fillTab(CreativeModeTabEvent.BuildContents ev)
+    private void fillTab(BuildCreativeModeTabContentsEvent ev)
 	{
-		if (ev.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
+		if (ev.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
 			ev.accept(ModItems.potato_block_item);
 	}
 }
